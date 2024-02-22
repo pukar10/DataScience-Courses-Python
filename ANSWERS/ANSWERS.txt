@@ -1,0 +1,98 @@
+ALL OUTPUTS AND ANSWERS:
+
+
+
+Columns: ['category', 'title', 'short_decs', 'rating', 'student_num', 'points', 'creator', 'language', 'last_update', 'price', 'duration', 'long_desc', 'url']
+
+1. How many null values are there in each column?
+category         4
+title            1
+short_decs       4
+rating          17
+student_num     17
+points          17
+creator          4
+language         4
+last_update     23
+price           36
+duration       314
+long_desc       14
+url              0
+
+2. Fill in the null values of price and rating to be 0
+category         4
+title            1
+short_decs       4
+rating           0
+student_num     17
+points          17
+creator          4
+language         4
+last_update     23
+price            0
+duration       314
+long_desc       14
+url              0
+
+3. Create a scatter of plot with the title of rating vs price and with red dots. What does this scatter plot tell us about these two variables?
+
+Answer: From rating 1 to 4 not much change in price (exception of a few outlier). Around 4 rating or higher you start to see an increase in price.
+
+4. Create a graph showing the top 10 most popular categories by number of courses. What is the top category and the number of courses in it?
+IT & Software > IT Certifications > AWS Certification            360
+Development > Web Development                                     46
+IT & Software > IT Certifications > Amazon AWS                     6
+IT & Software > Other IT & Software > Web Development              4
+IT & Software > Other IT & Software > CSS                          3
+Development > No-Code Development > Web Development                3
+Development > Web Development > HTML                               3
+IT & Software > Network & Security > AWS Certification             3
+IT & Software > Other IT & Software > Real Time Communication      2
+Development > Web Development > JSP                                2
+Name: category, dtype: int64
+Most Popular Category and number of courses in it: IT & Software > IT Certifications > AWS Certification    360 Courses
+
+5. Add the following data into the dataframe ['EA > Assessment Training', 'Python Assessment Training', 'Learn how to do the python EA assessment', 10.0, '0 students', 100, 'BAH', 'English', '11/2/2022',999.999, '1 hour', 'Student will learn how to use python and notebooks to answer various questions','localhost:8888']
+New row of data added
+
+6. Create a new dataframe that shows the average and count for each category�s rating and price. Which category has the top mean rating and top mean price and how many courses were offered?
+                                                        price    rating
+category
+                                                     0.000000  0.000000
+Business > Business Analytics & Intelligence > ...  17.990000  4.600000
+Design > Web Design > Web Development               12.495000  4.800000
+Development > Database Design & Development > A...  14.990000  3.700000
+Development > No-Code Development > Web Develop...   9.993333  4.533333
+Development > Programming Languages > Java          14.990000  0.000000
+Development > Software Engineering > AWS Certif...  14.990000  3.200000
+Development > Web Development                       11.948696  2.978261
+Development > Web Development > AWS Certification   14.990000  2.800000
+Development > Web Development > CSS                 14.990000  2.500000
+Development > Web Development > Front End Web D...   0.000000  4.600000
+Development > Web Development > HTML                 4.996667  3.133333
+Development > Web Development > HTML5               14.990000  5.000000
+Development > Web Development > JSP                 14.990000  4.600000
+Development > Web Development > Microsoft Project   94.990000  4.700000
+Development > Web Development > NFT (Non-Fungib...  14.990000  4.000000
+Development > Web Development > Shopify              0.000000  4.500000
+Development > Web Development > Three.JS            14.990000  5.000000
+Development > Web Development > WordPress            7.495000  2.500000
+IT & Software > IT Certifications > AWS Certifi...  15.179222  2.801667
+IT & Software > IT Certifications > AWS Certifi...  14.990000  4.700000
+IT & Software > IT Certifications > AWS Certifi...  14.990000  4.400000
+IT & Software > IT Certifications > AWS Certifi...  19.990000  4.600000
+IT & Software > IT Certifications > AWS Certifi...  14.990000  3.800000
+IT & Software > IT Certifications > Amazon AWS      15.658333  3.550000
+IT & Software > IT Certifications > Web Develop...  14.990000  0.000000
+IT & Software > Network & Security > AWS Certif...  15.323333  4.600000
+IT & Software > Other IT & Software > AWS Certi...  14.990000  4.400000
+IT & Software > Other IT & Software > Amazon AWS    14.990000  4.600000
+IT & Software > Other IT & Software > CSS           38.323333  2.666667
+IT & Software > Other IT & Software > Real Time...  14.990000  3.200000
+IT & Software > Other IT & Software > Web Devel...  14.990000  2.250000
+Inform�tica y software > Inform�tica y software...   0.000000  4.200000
+Teaching & Academics > Test Prep > AWS Certific...  14.990000  0.000000
+Yaz?l?m Geli?tirme > Web Geli?tirme > Web Geli?...   0.000000  4.200000
+
+Process finished with exit code 0
+
